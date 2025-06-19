@@ -9,9 +9,6 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
-public class Imagen extends Base{
-    private String denominacion;
+public class ImagenCliente extends Imagen{
     private Cliente cliente;
-    private Articulo articulo;
-    private Promocion promocion;
 }

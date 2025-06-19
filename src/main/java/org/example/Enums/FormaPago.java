@@ -1,4 +1,5 @@
 package org.example.Enums;
 
-public class FormaPago {
+public enum FormaPago {
+    EFECTIVO,MERCADOPAGO;
 }
